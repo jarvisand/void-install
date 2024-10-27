@@ -59,7 +59,7 @@ cat << "EOF"
 EOF
 
 # Clone and build dwm environment
-git clone --depth=1 https://gitlab.com/NyxVoid/void-dwm.git/ $HOME/.local/src/void-dwm
+git clone --depth=1 https://github.com/jarvisand/void-dwm.git/ $HOME/.local/src/void-dwm
 
 sudo make -C ~/.local/src/void-dwm/dwm/ clean install
 sudo make -C ~/.local/src/void-dwm/dmenu/ clean install
