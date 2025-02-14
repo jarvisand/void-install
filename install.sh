@@ -34,13 +34,13 @@ cat << "EOF"
 EOF
 
 # Dev
-git clone --depth=1 https://gitlab.com/NyxVoid/dev.git/ $HOME/.local/dev
+git clone --depth=1 https://gitlab.com/amritxyz/dev.git/ $HOME/.local/dev
 
 # Clone dotfiles repository
 git clone --depth=1 https://github.com/jarvisand/voidrice.git/ $HOME/voidrice
 
 # Clone walls
-git clone --depth=1 https://gitlab.com/NyxVoid/void-wall.git/ $HOME/.local/share/void-wall
+git clone --depth=1 https://gitlab.com/amritxyz/void-wall.git/ $HOME/.local/share/void-wall
 
 cp -r $HOME/voidrice/.local/share/* $HOME/.local/share
 \cp -r $HOME/voidrice/.local/bin/* $HOME/.local/bin
